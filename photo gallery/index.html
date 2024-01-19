@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo gallery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div>
+		<p id="image">Hover over an image below to display here.</p>
+		<div id="buttons">
+			<button onclick="openFunction()">Explain pictures</button>
+			<button onclick="closeFunction()">Hide explaination</button>
+			<p id="content">This is a photo gallery, displaying the logos of PHP, HTML, CSS and JavaScript. it used the three technologies to create the webpage. This is an easy way to use JavaScript events and use collapsibles.</p>
+		</div>
+	</div>
+	<p id="header">photo gallery</p>
+
+	<img class="preview" alt="PHP" src="img\php-logo.png" onmouseover="upDate(this)" onmouseout="unDo()">
+
+	<img class = "preview" src = "img\HTML_logo-200p.png" alt = "HTML" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+    <img class = "preview" src = "img\CSS_logo-200p.png" alt = "CSS" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+    <img class = "preview" alt = "JavaScript" src = "img\js_logo-200p.png" onmouseover = "upDate(this)" onmouseout = "unDo()">
+</body>
+</html>
