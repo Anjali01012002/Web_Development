@@ -1,0 +1,27 @@
+#clock {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    border: 5px solid blue;
+    width: 35%;
+    line-height: 50px;
+    font-size: larger;
+    background-color: white;
+}
+input{
+    width: 45px; 
+    border: none;
+    font-size: 40px; 
+    font-weight: bold;
+    color: black;
+}
+img{
+    width: 80%;
+}
+body{
+    background-color: #333;
+}
+h2{
+    color: darkblue;
+    text-shadow: 1px 1px #ff0000;
+}
